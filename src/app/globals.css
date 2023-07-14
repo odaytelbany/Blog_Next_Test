@@ -1,5 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+body{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.active{
+  color: rgb(15, 228, 15);
+}
+
+.footer{
+  z-index: 99;
+  color: white;
 }
