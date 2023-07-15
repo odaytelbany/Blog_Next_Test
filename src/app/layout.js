@@ -14,9 +14,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
-        {children}
-        <Footer />
+        <div className='max-w-screen-xl flex flex-col flex-wrap justify-between mx-auto p-2 h-screen'>
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   )

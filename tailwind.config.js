@@ -12,7 +12,11 @@ module.exports = {
     "./src/components/Navbar/Navbar.jsx"
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        '500': '500px',
+      }
+    },
   },
   plugins: [],
 }
