@@ -9,12 +9,14 @@ module.exports = {
     "./src/app/page.js",
     "./src/app/layout.js",
     "./src/components/Footer/Footer.jsx",
-    "./src/components/Navbar/Navbar.jsx"
+    "./src/components/Navbar/Navbar.jsx",
+    // "./src/components/Button/Button.jsx",
   ],
   theme: {
     extend: {
       height: {
         '500': '500px',
+        '300': '300px',
       }
     },
   },
