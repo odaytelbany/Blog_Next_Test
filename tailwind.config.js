@@ -5,12 +5,15 @@ module.exports = {
     "./src/app/Blog/page.js",
     "./src/app/Contact/page.js",
     "./src/app/Dashboard/page.js",
+    "./src/app/Portofolio/layout.js",
     "./src/app/Portofolio/page.js",
     "./src/app/page.js",
     "./src/app/layout.js",
     "./src/components/Footer/Footer.jsx",
     "./src/components/Navbar/Navbar.jsx",
-    // "./src/components/Button/Button.jsx",
+    "./src/components/Button/Button.jsx",
+    "./src/components/PortoItem/PortoItem.jsx",
+    "./src/app/Portofolio/[category]/page.js",
   ],
   theme: {
     extend: {
