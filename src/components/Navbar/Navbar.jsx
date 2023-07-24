@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import ThemeToggle from "../ThemeToggle/ThemeToggle";
 
 function Navbar() {
   return (
@@ -85,6 +86,9 @@ function Navbar() {
               >
                 Dashboard
               </Link>
+            </li>
+            <li >
+              <ThemeToggle />
             </li>
           </ul>
         </div>

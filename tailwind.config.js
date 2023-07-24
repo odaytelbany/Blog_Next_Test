@@ -13,6 +13,7 @@ module.exports = {
     "./src/components/Navbar/Navbar.jsx",
     "./src/components/Button/Button.jsx",
     "./src/components/PortoItem/PortoItem.jsx",
+    "./src/components/ThemeToggle/ThemeToggle.jsx",
     "./src/app/Portofolio/[category]/page.js",
   ],
   theme: {
