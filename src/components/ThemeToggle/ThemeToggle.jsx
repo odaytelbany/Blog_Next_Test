@@ -1,12 +1,16 @@
-import React from 'react'
+"use client"
+
+import { ThemeContext } from '@/Context/ThemeContext'
+import React, { useContext } from 'react'
 
 const ThemeToggle = () => {
-  const mode = "left"
+  const {mode} = useContext(ThemeContext);
+
   return (
-    <div className='w-12 h-6 rounded-xl flex justify-between items-center p-0.5 border-2 border-green-600 relative'>
-      <div className='text-sm'>🌙</div>
-      <div className='text-sm'>☀️</div>
-      <div className={`w-4 h-4 bg-green-600 rounded-full absolute ${mode == "dark" ? "right-0.5" : "left-0.5"}`}></div>
+    <div className='w-11 h-6 rounded-xl flex justify-between items-center p-0.5 border-2 border-green-600 relative'>
+      <div className='text-xs'>☀️</div>
+      <div className='text-xs'>🌙</div>
+      <div className={`w-4 h-4 bg-green-600 rounded-full absolute ${mode == "dark" ? "left-0.5" : "right-0.5"}`}></div>
     </div>
   )
 }

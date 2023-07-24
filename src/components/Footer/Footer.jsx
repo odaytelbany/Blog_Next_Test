@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
         <div className='flex flex-wrap items-center justify-between mx-auto p-2 mt-1'>
-            <span className="text-xs" style={{color: "white"}}>@2023 Lamamia All rights reserved</span>
+            <span className="text-xs">@2023 Lamamia All rights reserved</span>
             <div className='flex gap-2'>
                 <Image src="/1.png" width={15} height={15}/>
                 <Image src="/2.png" width={15} height={15}/>

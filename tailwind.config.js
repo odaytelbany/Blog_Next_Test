@@ -15,6 +15,7 @@ module.exports = {
     "./src/components/PortoItem/PortoItem.jsx",
     "./src/components/ThemeToggle/ThemeToggle.jsx",
     "./src/app/Portofolio/[category]/page.js",
+    "./src/Context/ThemeContext.js",
   ],
   theme: {
     extend: {

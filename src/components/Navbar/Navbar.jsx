@@ -7,7 +7,7 @@ function Navbar() {
     <nav>
       <div className="flex flex-wrap items-center justify-between mx-auto p-4">
         <Link href="/">
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center text-2xl font-semibold whitespace-nowrap">
             Iamamia
           </span>
         </Link>
@@ -41,7 +41,7 @@ function Navbar() {
             <li>
               <Link
                 href="/"
-                className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 dark:text-white md:dark:hover:text-green-500"
+                className="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 md:dark:hover:text-green-500"
                 aria-current="page"
               >
                 Home
@@ -50,7 +50,7 @@ function Navbar() {
             <li>
               <Link
                 href="/Portofolio"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark: md:dark:hover:text-green-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
               >
                 Portofolio
               </Link>
@@ -58,7 +58,7 @@ function Navbar() {
             <li>
               <Link
                 href="/Blog"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 md:dark:hover:text-green-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
               >
                 Blog
               </Link>
@@ -66,7 +66,7 @@ function Navbar() {
             <li>
               <Link
                 href="/About"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 md:dark:hover:text-green-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
               >
                 About
               </Link>
@@ -74,7 +74,7 @@ function Navbar() {
             <li>
               <Link
                 href="Contact"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 md:dark:hover:text-green-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
               >
                 Contact
               </Link>
@@ -82,7 +82,7 @@ function Navbar() {
             <li>
               <Link
                 href="/Dashboard"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 md:dark:hover:text-green-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
               >
                 Dashboard
               </Link>
