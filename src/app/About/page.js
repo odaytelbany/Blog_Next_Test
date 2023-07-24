@@ -11,7 +11,7 @@ function page() {
           src="https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           fill={true}
         />
-        <div className="figure-desc z-10 p-1 absolute bg-green-600 bottom-2 left-2">
+        <div className="figure-desc z-10 p-1 absolute bg-green-600 bottom-2 left-2 text-white">
           <h1 className="text-xl font-bold">Digital Storyteller</h1>
           <p>Handcrafting award winning digital experiences</p>
         </div>
